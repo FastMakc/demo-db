@@ -13,7 +13,6 @@ import javax.persistence.Id;
 public class Pollution {
 
 
-
     @Id
     private String id;
     private double co;
