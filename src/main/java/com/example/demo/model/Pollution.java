@@ -12,7 +12,6 @@ import javax.persistence.Id;
 @Entity(name = "pollution")
 public class Pollution {
 
-
     @Id
     private String id;
     private double co;
@@ -23,7 +22,5 @@ public class Pollution {
     private double pm2_5;
     private double pm10;
     private double nh3;
-
-
 
 }
