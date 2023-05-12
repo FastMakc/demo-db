@@ -1,6 +1,6 @@
 package com.example.demo.model;
 <<<<<<< HEAD
-=======
+======
 
 >>>>>>> origin/main
 import lombok.Data;
