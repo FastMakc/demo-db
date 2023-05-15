@@ -16,3 +16,4 @@ public interface UserRepository extends CrudRepository<User, Integer> {
     @Query(value = "select u from userTable u where u.name=:name")
     List<User> findUserByNameSorted(Sort sort, @Param("name") String name);
 }
+
