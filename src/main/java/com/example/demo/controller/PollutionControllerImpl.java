@@ -33,7 +33,6 @@ public class PollutionControllerImpl implements PollutionController {
     @PostMapping(value = "/savePollution", consumes = MediaType.APPLICATION_JSON_VALUE)
     public Mono<Boolean> savePollution(@RequestBody Pollution pollution) {
 
-
         pollutionRepository.save(pollution);
         return Mono.just(true);
     }
