@@ -26,7 +26,6 @@ public class PollutionControllerImpl implements PollutionController {
 
         return pollutionRepository.findById(request.getLat()+"_"+request.getLon()).orElse(null);
 
-
     }
 
     @Override
