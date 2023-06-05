@@ -25,7 +25,6 @@ public class UserController {
         user.setName(name);
         userRepository.save(user);
 
-
        return userRepository.findById(2).orElse(null);
 
     }
