@@ -10,4 +10,5 @@ public interface PollutionController {
     public Pollution getPollution(UserRequest request);
 
     public Mono<Boolean> savePollution(Pollution pollution);
+
 }
